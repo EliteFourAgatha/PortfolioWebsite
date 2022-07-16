@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    font-family: Finlandica;
+    background-color: rgb(123, 123, 123);
+  }
+  h1, h2, span, :not(.closeElement) {
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  body {
+    margin: 0px; /*Remove padding around side*/
+  }
+  h1{
+    font-size: 64px;
+  }
+  .col-lg-6{
+    margin-top: 2px;
+  }
+
+    /* hero background image */
+    .main-bg-image {
+        height:100vh;
+        background: url('images/main_bg_image.jpg');
+        background-size:cover;
+        position:relative;
+    }
+    /* text css above hero image
+    .hero_title {
+        font-size: 4.5rem;
+    }
+    */
+    /*
+    .hero_desc {
+        font-size: 2rem;
+    }
+    */
+    /*
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    */
+    /* about section image css */
+    .imageAboutPage {
+        width: 100%;
+    }
+
+    /* Black background on navbar scroll */
+    .navbarScroll.navbarDark {
+        background-color: black;
+    }
+    .portfolio-link-button{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        text-align: center;
+        font-size: 36px;
+        text-decoration: none;
+    }
+    .portfolio-link-button:hover{
+        text-decoration: underline;
+    }
+    .portfolio-item-image{
+        max-width: 100%;
+        height: auto;
+    }
+
+  .nav-item {
+    /* Transition smoothly over time */
+    transition: opacity 0.2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  /* While hovered over...*/
+  .nav-item:hover{
+    background-color: rgb(127, 127, 127);
+  }
+  /* When clicked on...*/
+  .nav-item:active{
+    opacity: 0.8;
+  }
