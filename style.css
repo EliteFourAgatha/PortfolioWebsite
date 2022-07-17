@@ -16,6 +16,9 @@
   .col-lg-6{
     margin-top: 2px;
   }
+  * ul{
+    list-style: none;
+  }
 
     /* hero background image */
     .main-bg-image {
@@ -24,7 +27,85 @@
         background-size:cover;
         position:relative;
     }
-    /* text css above hero image
+    
+    /* about section image css */
+    .imageAboutPage {
+        width: 100%;
+    }
+    .navbar ul{
+      display: flex;
+    }
+    .navbar ul ul {
+      position: absolute;
+      background-color: rgb(0, 0, 0);
+      padding: 0;
+      text-align: left;
+      display: block;
+    }
+    .navbar ul li ul {
+      display: none;
+      width: auto;
+      padding: 0;
+      padding-left: 10px;
+      margin: 0;
+    }
+    .navbar ul li:hover ul   {
+      display: block;
+    }
+    .nav-sub-items{
+      overflow: hidden;
+    }
+    /* Black background on navbar scroll */
+    .navbarScroll.navbarDark {
+        background-color: black;
+    }
+    .portfolio-link-button{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        text-align: center;
+        font-size: 36px;
+        text-decoration: none;
+    }
+    .portfolio-link-button:hover{
+        text-decoration: underline;
+    }
+    .portfolio-item-image{
+        max-width: 100%;
+        height: auto;
+    }
+  /* spacing on all sections */
+  #about-section, #projects-section {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  }
+
+  /* social media icons styling */
+  .social-icons {
+    font-size: 36px;
+    cursor: pointer;
+  }
+  /* footer styling */
+  #footer-section {
+    background-color: #808080;
+    text-align: center;
+  }
+
+  .nav-item {
+    /* Transition smoothly over time */
+    transition: opacity 0.2s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  /* While hovered over...*/
+  .nav-item:hover{
+    background-color: rgb(127, 127, 127);
+  }
+  /* When clicked on...*/
+  .nav-item:active{
+    opacity: 0.8;
+  }
+
+
+      /* text css above hero image
     .hero_title {
         font-size: 4.5rem;
     }
@@ -44,40 +125,3 @@
         color: white;
     }
     */
-    /* about section image css */
-    .imageAboutPage {
-        width: 100%;
-    }
-
-    /* Black background on navbar scroll */
-    .navbarScroll.navbarDark {
-        background-color: black;
-    }
-    .portfolio-link-button{
-        margin-top: 16px;
-        margin-bottom: 16px;
-        text-align: center;
-        font-size: 36px;
-        text-decoration: none;
-    }
-    .portfolio-link-button:hover{
-        text-decoration: underline;
-    }
-    .portfolio-item-image{
-        max-width: 100%;
-        height: auto;
-    }
-
-  .nav-item {
-    /* Transition smoothly over time */
-    transition: opacity 0.2s;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
-  }
-  /* While hovered over...*/
-  .nav-item:hover{
-    background-color: rgb(127, 127, 127);
-  }
-  /* When clicked on...*/
-  .nav-item:active{
-    opacity: 0.8;
-  }
