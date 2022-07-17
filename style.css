@@ -13,7 +13,7 @@
   h1{
     font-size: 64px;
   }
-  .col-lg-6{
+  .col{
     margin-top: 2px;
   }
   * ul{
@@ -74,7 +74,7 @@
         height: auto;
     }
   /* spacing on all sections */
-  #about-section, #projects-section {
+  #about-section, #projects-section, #stock-dashboard-section{
     margin-top: 4rem;
     padding-top: 4rem;
   }
