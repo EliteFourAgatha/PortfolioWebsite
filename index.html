@@ -38,9 +38,11 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="#projects-section">Projects</a>
                 <ul>
-                  <li class="nav-item"><a class="nav-link" href="stock_dashboard.html">Stock Dashboard</a></li>
-                  <li class="nav-item"><a class="nav-link" href="horror_game.html">Horror Game</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#projects-section">Projects2</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#stock-dashboard-section">Stock Dashboard</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#horror-game-section">Horror Game</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#lava-escape-section">Lava Escape</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#uatanks-section">UATanks</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#thief-section">Thief in the Night</a></li>
                 </ul>
               </li>
           </ul>
@@ -70,23 +72,91 @@
     <div class="container mt-3">
         <h1 class="text-center mt-4">Projects</h1>
 
-        <div class="row">
-          <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" class="portfolio-link-button", target="_blank">Python Stock Dashboard | Python, Dash, Plotly, HTML</a>
-            <div class="text-center">
-              <a href="Pages/stock_dashboard.html" target="_blank">
-                <img class="portfolio-item-image" src="images/pythondashboard-1.png" alt="Python Stock Dashboard">
-              </a>
+        <!-- Stock Dashboard -->
+        <section id="stock-dashboard-section">
+          <div class="row">
+            <h2 class="portfolio-item-title">Stock Dashboard | Python, Dash, Plotly, HTML/CSS</h2>
+            <video width="320" height="240" controls>
+              <source src="images/stockdashboard.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>This is a stock analysis program made with Python using the Dash framework. This project taught me some of the fundamentals
+              of HTML and web app design. I also improved at pulling data from different types of API's and manipulating it using Pandas and similar libraries.
+               There is a section for company metrics, a price chart, an analyst sentiment graph, a volume bubble chart, and a news module.
+               A major goal was to learn more about data visualization in Python. I ended up using Plotly and dabbled with Seaborn/Matplotlib, and I 
+               feel a lot more confident using them to visualize data now.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <h4 class="text-center">Early Build</h4>
+                <img class="portfolio-item-image" src="images/stock-dashboard-1.png" alt="stock-dashboard-1">
+              </div>
+              <div class="col-lg-6">
+                <h4 class="text-center">Final Build A</h4>
+                <img class="portfolio-item-image" src="images/stock-dashboard-2.png" alt="stock-dashboard-2">
+              </div>
             </div>
-        </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <h4 class="text-center">Final Build B</h4>
+                <img class="portfolio-item-image" src="images/stock-dashboard-3.png" alt="stock-dashboard-3">
+              </div>
+              <div class="col-lg-6">
+                <h4 class="text-center">Final Build C</h4>
+                <img class="portfolio-item-image" src="images/stock-dashboard-4.png" alt="stock-dashboard-4">
+              </div>
+            </div>
+          </div>
+        </section>
 
-        <div class="row">
-          <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" class="portfolio-link-button" target="_blank">Easy Money | Unity, C#</a>
-            <div class="text-center">
-              <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" target="_blank">
-                <img class="portfolio-item-image" src="images/horrorgame-1.png" alt="Horror Game">
-              </a>
+        <!-- Stock Dashboard -->
+        <section id="horror-game-section">
+          <div class="row">
+            <h2 class="portfolio-item-title">Easy Money | Unity, C#</h2>
+            <video width="320" height="240" controls>
+              <source src="images/horrorgame.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>This is a short horror game made in Unity. It was my first full 3D game as I had only made smaller projects before this. 
+              The project changed forms a few different times. I learned some lessons about the importance of pre-production planning and attempting to stick to the plan
+              to avoid endless feature creep. I think some iteration while designing is a good thing but I wasted a lot time reworking things in hindsight. 
+              Main project components were level design, first person controller, interactions by raycast, horror design/events, and monster AI.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="portfolio-item-image" src="images/horrorgame-1.png" alt="stock-dashboard-1">
+              </div>
+              <div class="col-lg-6">
+                <img class="portfolio-item-image" src="images/horrorgame-2.png" alt="stock-dashboard-2">
+              </div>
             </div>
-        </div>
+          </div>
+        </section>
+
+        <!--
+        <section id="stock-dashboard-section">
+          <div class="row">
+            <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" class="portfolio-link-button", target="_blank">Python Stock Dashboard | Python, Dash, Plotly, HTML</a>
+              <div class="text-center">
+                <a href="Pages/stock_dashboard.html" target="_blank">
+                  <img class="portfolio-item-image" src="images/pythondashboard-1.png" alt="Python Stock Dashboard">
+                </a>
+              </div>
+          </div>  
+        </section>
+
+        <section id="horror-game-section">
+          <div class="row">
+            <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" class="portfolio-link-button" target="_blank">Easy Money | Unity, C#</a>
+              <div class="text-center">
+                <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" target="_blank">
+                  <img class="portfolio-item-image" src="images/horrorgame-1.png" alt="Horror Game">
+                </a>
+              </div>
+          </div>
+        </section>
+      -->
+
     </div>
   </section>
 
@@ -96,48 +166,79 @@
         <h1 class="text-center">Game Jam / Class Projects</h1>
 
         <!-- Lava Escape -->
-        <div class="row">
-          <h2 class="portfolio-item-title">Lava Escape | UE4, Blueprints</h2>
-          <video width="320" height="240" controls>
-            <source src="images/lavaescape.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <p>Lava Escape is a puzzle platformer game made in Unreal for a gameplay programming course. You have to keep track of the room's layout and
-            change elements between mushrooms that give you a double jump and clouds that disappear after a few seconds. This was my first Unreal game
-            and helped me learn the editor and general workflow. I enjoyed visual scripting by Blueprint and look forward to doing more of that in the future.
-          </p>
+        <section id="lava-escape-section">
           <div class="row">
-            <div class="col-lg-6">
-              <img class="portfolio-item-image" src="images/lavaescape-1.png" alt="UE4 Game">
-            </div>
-            <div class="col-lg-6">
-              <img class="portfolio-item-image" src="images/lavaescape-2.png" alt="UE4 Game">
+            <h2 class="portfolio-item-title">Lava Escape | UE4, Blueprints</h2>
+            <video width="320" height="240" controls>
+              <source src="images/lavaescape.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>Lava Escape is a puzzle platformer game made in Unreal for a gameplay programming course. You have to keep track of the room's layout and
+              change elements between mushrooms that give you a double jump and clouds that disappear after a few seconds. This was my first Unreal game
+              and helped me learn the editor and general workflow. I enjoyed visual scripting by Blueprint and look forward to doing more of that in the future.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="portfolio-item-image" src="images/lavaescape-1.png" alt="UE4 Game">
+              </div>
+              <div class="col-lg-6">
+                <img class="portfolio-item-image" src="images/lavaescape-2.png" alt="UE4 Game">
+              </div>
             </div>
           </div>
-        </div>
+        </section>
 
         <!-- UATanks -->
-        <div class="row">
-          <h2 class="portfolio-item-title">UATanks | Unity, C#</h2>
-          <video width="320" height="240" controls>
-            <source src="images/uatanks.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video>
-          <p>UATanks is a multiplayer tank arena game made in Unity. It was made in 5 weeks for a programming course
-            and I learned a lot in that time. A procedural level generator was created to randomize the map's layout.
-            The enemy AI followed state machine logic for decision-making and one of them used waypoint pathfinding to navigate.
-            I also added split-screen multiplayer which was trickier than expected. I ran into some interesting issues like
-            considering where to put the sole audio listener when both players needed the same volume.
-          </p>
+        <section id="uatanks-section">
           <div class="row">
-            <div class="col-lg-6">
-              <img class="portfolio-item-image" src="images/uatanks-1.png" alt="UATanks-1">
-            </div>
-            <div class="col-lg-6">
-              <img class="portfolio-item-image" src="images/uatanks-2.png" alt="UATanks-2">
+            <h2 class="portfolio-item-title">UATanks | Unity, C#</h2>
+            <video width="320" height="240" controls>
+              <source src="images/uatanks.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>UATanks is a multiplayer tank arena game made in Unity. It was made in 5 weeks for a programming course
+              and I learned a lot in that time. A procedural level generator was created to randomize the map's layout.
+              The enemy AI followed state machine logic for decision-making and one of them used waypoint pathfinding to navigate.
+              I also added split-screen multiplayer which was trickier than expected. I ran into some interesting issues like
+              considering where to put the only audio listener when both players needed to be able to hear at the same volume.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="portfolio-item-image" src="images/uatanks-1.png" alt="UATanks-1">
+              </div>
+              <div class="col-lg-6">
+                <img class="portfolio-item-image" src="images/uatanks-2.png" alt="UATanks-2">
+              </div>
             </div>
           </div>
-        </div>
+        </section>
+
+        <!-- Thief in the Night -->
+        <section id="thief-section">
+          <div class="row">
+            <h2 class="portfolio-item-title">Thief in the Night | Unity, C#</h2>
+            <video width="320" height="240" controls>
+              <source src="images/thief.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>This is a game I made for the Itch.io Weekly Game Jam #235. The theme was <em>Bandit</em> and I settled on a simple idea pretty quickly.
+              The biggest lesson I learned making this game was to prototype the main game mechanics to make sure the gameplay is solid / fun 
+              before making art and assets. I did the process in reverse and didn't spend nearly enough time on the core gameplay loop.
+              As a result, the first iteration was too easy and a few people that left feedback said as much. 
+              I ended up changing the game so that you only had four knives which had to be picked up whether you hit or miss. 
+              I also improved the thief AI a bit. The result is a lot more challenging and could be expanded upon.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="portfolio-item-image" src="images/thief-1.png" alt="thief-1">
+              </div>
+              <div class="col-lg-6">
+                <img class="portfolio-item-image" src="images/thief-2.png" alt="thief-2">
+              </div>
+            </div>
+          </div>
+        </section>
+
 
     </div>
   </section>
