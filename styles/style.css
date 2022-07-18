@@ -7,9 +7,6 @@
     background-color: rgb(0, 0, 0);
     color: white;
   }
-  body {
-    margin: 0px; /*Remove padding around side*/
-  }
   h1{
     font-size: 64px;
   }
@@ -59,7 +56,9 @@
     .navbarScroll.navbarDark {
         background-color: black;
     }
-    .portfolio-link-button{
+
+    
+    .portfolio-item-title{
         margin-top: 16px;
         margin-bottom: 16px;
         text-align: center;

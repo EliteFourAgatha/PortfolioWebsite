@@ -20,7 +20,7 @@
 
   <!-- Bootstrap 5: https://getbootstrap.com/docs/5.0/getting-started/introduction/-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles/style.css">
 
 </head>
 
@@ -38,15 +38,15 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="#projects-section">Projects</a>
                 <ul>
-                  <li class="nav-item"><a class="nav-link" href="#stock-dashboard-section">Stock Dashboard</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#projects-section">Projects1</a></li>
+                  <li class="nav-item"><a class="nav-link" href="stock_dashboard.html">Stock Dashboard</a></li>
+                  <li class="nav-item"><a class="nav-link" href="horror_game.html">Horror Game</a></li>
                   <li class="nav-item"><a class="nav-link" href="#projects-section">Projects2</a></li>
                 </ul>
               </li>
           </ul>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#about-section">About</a></li>
-        </ul>
+          </ul>
         </div>
     </div>
   </nav>
@@ -73,7 +73,7 @@
         <div class="row">
           <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" class="portfolio-link-button", target="_blank">Python Stock Dashboard | Python, Dash, Plotly, HTML</a>
             <div class="text-center">
-              <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" target="_blank">
+              <a href="Pages/stock_dashboard.html" target="_blank">
                 <img class="portfolio-item-image" src="images/pythondashboard-1.png" alt="Python Stock Dashboard">
               </a>
             </div>
@@ -90,18 +90,55 @@
     </div>
   </section>
 
-  <!-- small projects section-->
+  <!-- small projects section -->
   <section id="smallProjects-section">
     <div class="container mt-3">
-        <h1 class="text-center">Personal / Class Projects</h1>
+        <h1 class="text-center">Game Jam / Class Projects</h1>
+
+        <!-- Lava Escape -->
         <div class="row">
-          <a href="https://github.com/EliteFourAgatha/SIP-SageDashboard" class="portfolio-link-button", target="_blank">Portal Escape | UE4, Blueprint Scripting</a>
-            <div class="text-center">
-                <a href="" target="_blank">
-                  <img class="portfolio-item-image" src="images/portalgame-1.png" alt="UE4 Game">
-                </a>
+          <h2 class="portfolio-item-title">Lava Escape | UE4, Blueprints</h2>
+          <video width="320" height="240" controls>
+            <source src="images/lavaescape.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          <p>Lava Escape is a puzzle platformer game made in Unreal for a gameplay programming course. You have to keep track of the room's layout and
+            change elements between mushrooms that give you a double jump and clouds that disappear after a few seconds. This was my first Unreal game
+            and helped me learn the editor and general workflow. I enjoyed visual scripting by Blueprint and look forward to doing more of that in the future.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="portfolio-item-image" src="images/lavaescape-1.png" alt="UE4 Game">
             </div>
+            <div class="col-lg-6">
+              <img class="portfolio-item-image" src="images/lavaescape-2.png" alt="UE4 Game">
+            </div>
+          </div>
         </div>
+
+        <!-- UATanks -->
+        <div class="row">
+          <h2 class="portfolio-item-title">UATanks | Unity, C#</h2>
+          <video width="320" height="240" controls>
+            <source src="images/uatanks.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          <p>UATanks is a multiplayer tank arena game made in Unity. It was made in 5 weeks for a programming course
+            and I learned a lot in that time. A procedural level generator was created to randomize the map's layout.
+            The enemy AI followed state machine logic for decision-making and one of them used waypoint pathfinding to navigate.
+            I also added split-screen multiplayer which was trickier than expected. I ran into some interesting issues like
+            considering where to put the sole audio listener when both players needed the same volume.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="portfolio-item-image" src="images/uatanks-1.png" alt="UATanks-1">
+            </div>
+            <div class="col-lg-6">
+              <img class="portfolio-item-image" src="images/uatanks-2.png" alt="UATanks-2">
+            </div>
+          </div>
+        </div>
+
     </div>
   </section>
 
